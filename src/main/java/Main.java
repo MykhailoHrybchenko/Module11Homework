@@ -13,7 +13,7 @@ public class Main {
         System.out.println(alphabeticNameSorter.sortByAlphabet(namesList));
         System.out.println("-----------");
         NumbersSorter numbersSorter = new NumbersSorter();
-        System.out.println(numbersSorter.sortNumbers());
+        System.out.println(NumbersSorter.separate(numbersSorter.numberArr));
         System.out.println("-----------");
         LinearCongruentialGenerator.numberRandomizer(0, 25214903917L, 11, (long)(Math.pow(2, 48)))
                 .forEach(System.out :: println);
